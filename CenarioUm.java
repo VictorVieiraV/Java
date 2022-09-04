@@ -24,7 +24,7 @@ public class CenarioUm {
         MenorValorRecursivo(vetor, 0, vetor[0]);
         long millis_endTime2 = System.nanoTime();;
 
-        System.out.println("\nTE vet[15000] MenorValorIterativo: "+(millis_endTime - millis_startTime)+" milisegundos / MenorValorRecursivo: "+(millis_endTime2 - millis_startTime2)+" milisegundos");
+        System.out.println("\nTE vet[15000] MenorValorIterativo: "+(millis_endTime - millis_startTime)+" nanosegundos / MenorValorRecursivo: "+(millis_endTime2 - millis_startTime2)+" nanosegundos");
     }
 
     public static void vetor75000() {
@@ -41,7 +41,7 @@ public class CenarioUm {
         //MenorValorRecursivo(vetor, 0, vetor[0]);
         long millis_endTime2 = System.nanoTime();;
     
-        System.out.println("TE vet[75000] MenorValorIterativo: "+(millis_endTime - millis_startTime)+" milisegundos / MenorValorRecursivo: "+(millis_endTime2 - millis_startTime2)+" milisegundos");
+        System.out.println("TE vet[75000] MenorValorIterativo: "+(millis_endTime - millis_startTime)+" nanosegundos / MenorValorRecursivo: "+(millis_endTime2 - millis_startTime2)+" nanosegundos");
     }
 
     public static void vetor300000() {
@@ -58,7 +58,7 @@ public class CenarioUm {
         //MenorValorRecursivo(vetor, 0, vetor[0]);
         long millis_endTime2 = System.nanoTime();;
     
-        System.out.println("TE vet[300000] MenorValorIterativo: "+(millis_endTime - millis_startTime)+" milisegundos / MenorValorRecursivo: "+(millis_endTime2 - millis_startTime2)+" milisegundos");
+        System.out.println("TE vet[300000] MenorValorIterativo: "+(millis_endTime - millis_startTime)+" nanosegundos / MenorValorRecursivo: "+(millis_endTime2 - millis_startTime2)+" nanosegundos");
     }
 
     public static void vetor1500000() {
@@ -75,7 +75,7 @@ public class CenarioUm {
         //MenorValorRecursivo(vetor, 0, vetor[0]);
         long millis_endTime2 = System.nanoTime();;
     
-        System.out.println("TE vet[1500000] MenorValorIterativo: "+(millis_endTime - millis_startTime)+" milisegundos / MenorValorRecursivo: "+(millis_endTime2 - millis_startTime2)+" milisegundos\n");
+        System.out.println("TE vet[1500000] MenorValorIterativo: "+(millis_endTime - millis_startTime)+" nanosegundos / MenorValorRecursivo: "+(millis_endTime2 - millis_startTime2)+" nanosegundos\n");
     }
     // A
     public static int MenorValorIterativo(int[] vetor) {

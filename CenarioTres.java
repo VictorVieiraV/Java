@@ -5,29 +5,22 @@ public class CenarioTres {
                 System.out.println("\n");
             } 
             CalcularTempoFibonacciIterativa();
+            CalcularTempoFibonacciRecursiva();
             if (i==39) {
                 System.out.println("\n");
             } 
         }
-        long milesec = 0;
-        int termo = 10, qtdExec = 0;
-        
-        while ( milesec != 60) {
-            termo += 3;
-            if(milesec == 1){
-                System.out.println("pasous aq");
-            }else{
-                milesec += CalcularFibonacciRecursiva(termo)/1000;
-                qtdExec++;
-            }
-            
-        }
-        System.out.println(qtdExec);
     }
 
     public static void CalcularTempoFibonacciIterativa(){
         System.out.println("Tempo Execução Iterativo: "+CalcularFibonacciIterativa20()+"|"+CalcularFibonacciIterativa10()
-        +"|"+CalcularFibonacciIterativa500()+"|"+CalcularFibonacciIterativa2500()+" milisegundos");
+        +"|"+CalcularFibonacciIterativa500()+"|"+CalcularFibonacciIterativa2500()+" nanosegundos");
+    }
+
+    
+    public static void CalcularTempoFibonacciRecursiva(){
+        System.out.println("Tempo Execução Recursiva: "+CalcularFibonacciRecursiva(20)+"|"+CalcularFibonacciRecursiva(10)
+        +"|"+CalcularFibonacciRecursiva(500)+"|"+CalcularFibonacciRecursiva(2500)+" nanosegundos");
     }
     
     //#region
@@ -75,7 +68,7 @@ public class CenarioTres {
         long millis_startTime = System.nanoTime();
         FibonacciRecursiva(termo, 0, 1, 0);
         long millis_endTime = System.nanoTime();
-        return (millis_endTime - millis_startTime)/1000000;
+        return millis_endTime - millis_startTime;
     }
 
     public static int FibonacciRecursiva(int termo, int numeroAtual , int numeroAnterior, int contador){

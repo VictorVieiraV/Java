@@ -23,8 +23,8 @@ public class CenarioDois {
         }
         numeroAleatorio = rd.nextInt(10000 + 0);
         Arrays.sort(vetorOrdenado10000);
-        System.out.println("\nTE vet[10000]   ordenado: " + CalcularNumeroRepeticoesVetorOrdenado(vetorOrdenado10000, numeroAleatorio) + " milisegundos / " +
-        "não ordenado: " + CalcularNumeroRepeticoesVetorNaoOrdenado(vetorNaoOrdenado10000, numeroAleatorio)  + " milisegundos");
+        System.out.println("\nTE vet[10000]   ordenado: " + CalcularNumeroRepeticoesVetorOrdenado(vetorOrdenado10000, numeroAleatorio) + " nanosegundos / " +
+        "não ordenado: " + CalcularNumeroRepeticoesVetorNaoOrdenado(vetorNaoOrdenado10000, numeroAleatorio)  + " nanosegundos");
         //#endregion
     }
 
@@ -40,8 +40,8 @@ public class CenarioDois {
         }
         numeroAleatorio = rd.nextInt(50000 + 0);
         Arrays.sort(vetorOrdenado50000);
-        System.out.println("TE vet[50000]   ordenado: " + CalcularNumeroRepeticoesVetorOrdenado(vetorOrdenado50000, numeroAleatorio) + " milisegundos / " +
-        "não ordenado: " + CalcularNumeroRepeticoesVetorNaoOrdenado(vetorNaoOrdenado50000, numeroAleatorio)  + " milisegundos");
+        System.out.println("TE vet[50000]   ordenado: " + CalcularNumeroRepeticoesVetorOrdenado(vetorOrdenado50000, numeroAleatorio) + " nanosegundos / " +
+        "não ordenado: " + CalcularNumeroRepeticoesVetorNaoOrdenado(vetorNaoOrdenado50000, numeroAleatorio)  + " nanosegundos");
         //#endregion
     }
 
@@ -57,8 +57,8 @@ public class CenarioDois {
         }
         numeroAleatorio = rd.nextInt(250000 + 0);
         Arrays.sort(vetorOrdenado250000);
-        System.out.println("TE vet[250000]  ordenado: " + CalcularNumeroRepeticoesVetorOrdenado(vetorOrdenado250000, numeroAleatorio) + " milisegundos / " 
-        + "não ordenado: " + CalcularNumeroRepeticoesVetorNaoOrdenado(vetorNaoOrdenado250000, numeroAleatorio)  + " milisegundos");
+        System.out.println("TE vet[250000]  ordenado: " + CalcularNumeroRepeticoesVetorOrdenado(vetorOrdenado250000, numeroAleatorio) + " nanosegundos / " 
+        + "não ordenado: " + CalcularNumeroRepeticoesVetorNaoOrdenado(vetorNaoOrdenado250000, numeroAleatorio)  + " nanosegundos");
         //#endregion
     }
     
@@ -74,8 +74,8 @@ public class CenarioDois {
         }
         numeroAleatorio = rd.nextInt(1250000 + 0);
         Arrays.sort(vetorOrdenado1250000);
-        System.out.println("TE vet[1250000] ordenado: " + CalcularNumeroRepeticoesVetorOrdenado(vetorOrdenado1250000, numeroAleatorio) + " milisegundos / "+
-         "não ordenado: " + CalcularNumeroRepeticoesVetorNaoOrdenado(vetorNaoOrdenado1250000, numeroAleatorio)  + " milisegundos\n");
+        System.out.println("TE vet[1250000] ordenado: " + CalcularNumeroRepeticoesVetorOrdenado(vetorOrdenado1250000, numeroAleatorio) + " nanosegundos / "+
+         "não ordenado: " + CalcularNumeroRepeticoesVetorNaoOrdenado(vetorNaoOrdenado1250000, numeroAleatorio)  + " nanosegundos\n");
         //#endregion
     }
     // A
