@@ -25,10 +25,5 @@ public class ComplexidadeSeis {
                 novoVetor[j] = vetor[j];
             }
         }
-        System.out.println("--------------------------");
-        for (int i = 0; i < novoVetor.length; i++) {
-            System.out.println("" + novoVetor[i]);
-        }
-        System.out.println("--------------------------");
     }
 }
