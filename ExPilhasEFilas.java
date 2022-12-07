@@ -77,6 +77,7 @@ public class ExPilhasEFilas {
             } else {
                 novoElemento.prox = this.atual.prox;
                 novoElemento.anterior = this.atual;
+                
                 this.atual.prox.anterior = novoElemento;
                 this.atual.prox = novoElemento;
             }
